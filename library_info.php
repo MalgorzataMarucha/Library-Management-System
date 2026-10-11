@@ -178,7 +178,6 @@ if ($library_id > 0) {
             </tr>
         </table>
 
-        <!-- Readers Table Section -->
         <?php if ($show_readers): ?>
             <h3 class="section-title">Readers</h3>
             <table>
@@ -201,7 +200,6 @@ if ($library_id > 0) {
             </table>
         <?php endif; ?>
 
-        <!-- Copies Table Section -->
         <?php if ($show_copies): ?>
             <h3 class="section-title">Book Copies</h3>
             <table>
